@@ -32,7 +32,7 @@ h1 {
 }
 
 a {
-    color:#0077C5;
+    color: #0077C5;
     padding: 0rem;
     margin: 0rem;
     text-decoration: none;
@@ -91,6 +91,16 @@ button {
 
 /* SITE IMAGE */
 
+.header-img {
+    margin: 0 auto;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new@2x-9448e6be.png);
+    background-size: 562px 83px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 5.5rem;
+    width: 11.5rem;
+}
+
 .img-div {
     justify-content: center;
     align-items: center;
@@ -104,6 +114,7 @@ button {
     width: 3rem;
     padding-right: .5rem;
 }
+
 
 /* Main */
 
@@ -147,4 +158,3 @@ button {
 .terms-conditions {
     font-size: 1.2rem;
 }
-
