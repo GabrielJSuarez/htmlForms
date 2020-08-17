@@ -74,7 +74,7 @@ button {
     background-color: #0077c5;
     color: #fff;
     border: 0.1rem solid #000;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: 0 2rem;
     font-size: 1.4rem;
 }
@@ -89,7 +89,7 @@ button i {
 
 .header-container {
     justify-content: flex-end;
-    margin: 1rem 2rem 0rem;
+    margin: 1rem 2rem 0;
 }
 
 .header-content {
