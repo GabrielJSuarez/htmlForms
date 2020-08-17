@@ -216,3 +216,18 @@ span {
 }
 
 /* Footer */
+
+.footer-nav {
+   margin-top: 2rem; 
+}
+
+.footer-nav a {
+    color: #505050;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-top: .3rem;
+}
