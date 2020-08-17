@@ -89,7 +89,7 @@ button i {
 
 .header-container {
     justify-content: flex-end;
-    margin: 1rem 2rem 2rem 0rem;
+    margin: 1rem 2rem 0rem;
 }
 
 .header-content {
@@ -229,6 +229,10 @@ span {
 
 .footer-nav a:hover {
     text-decoration: underline;
+}
+
+footer {
+    margin-bottom: 5rem;
 }
 
 footer p {
