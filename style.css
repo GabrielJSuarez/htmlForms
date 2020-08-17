@@ -6,6 +6,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 *,
@@ -28,7 +29,8 @@ img {
 
 h1 {
     color: #4c4c4c;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
 a {
@@ -36,6 +38,7 @@ a {
     padding: 0rem;
     margin: 0rem;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 ul {
@@ -71,34 +74,43 @@ button {
     background-color: #0077C5;
     color: #ffffff;
     border: .1rem solid #000000;
-    border-radius: 3%;
-    padding: 0rem 4rem;
+    border-radius: .5rem;
+    padding: 0rem 2rem;
+    font-size: 1.4rem;
+}
+
+button i {
+    font-size: 1.4rem;
+    padding-right: .5rem;
 }
 
 
 /* HEADER */
 
 .header-container {
-    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 2rem;
+    margin: 1rem 2rem 2rem 0rem;
 }
 
 .header-content {
     margin-right: 2rem;
 }
 
+.header-content p {
+    font-size: 1.2rem;
+    color: #505050;
+}
+
 
 /* SITE IMAGE */
 
 .header-img {
-    margin: 0 auto;
+    height: 4rem;
+    width: 11.5rem;
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new@2x-9448e6be.png);
-    background-size: 562px 83px;
+    background-size: 56.2rem 9rem;
     background-repeat: no-repeat;
     background-position: top left;
-    height: 5.5rem;
-    width: 11.5rem;
 }
 
 .img-div {
@@ -106,12 +118,16 @@ button {
     align-items: center;
 }
 
+.img-div p {
+    color: #8d9096;
+}
+
 .logo-container {
     margin-right: 1rem;
 }
 
 .logo-container img {
-    width: 3rem;
+    width: 2.5rem;
     padding-right: .5rem;
 }
 
@@ -119,14 +135,15 @@ button {
 /* Main */
 
 .main-container {
-    width: 50%;
+    width: 30%;
     background-color: #ffffff;
     border: .1rem solid #c7c7c7;
-    padding: 1.5rem;
+    padding: 1.5rem 2.5rem;
 }
 
 .account-intro p {
     margin-bottom: 0rem;
+    font-size: 1.4rem;
 }
 
 .form-content {
@@ -147,7 +164,15 @@ button {
 
 .list-element li label {
     text-align: left;
-    margin: 1rem 0;
+    margin: 1rem 0rem;
+    font-size: 1.4rem;
+    color: #404040;
+}
+
+span {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: .5rem;
 }
 
 .submit-buttom {
