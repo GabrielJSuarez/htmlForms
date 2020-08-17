@@ -10,14 +10,13 @@
 </head>
 
 <body>
-
-    <div>
+    <header>
         <div>
             <p>Already have an Intuit account?</p>
             <a href="#">I forgot my User ID or Password</a>
         </div>
         <button>Sign in</button>
-    </div>
+    </header>
 
     <div>
 
@@ -40,37 +39,35 @@
                 <a href="#">Learn more</a>
             </div>
 
-            <form action="#">
+            <form action="/login" method="post">
                 <fieldset>
                     <ul>
                         <li>
                             <label for="email">Email address</label>
-                            <input type="email" id="email">
+                            <input type="email" id="email" name="email">
                         </li>
-                            
+
                         <li>
                             <label for="phone-number">Phone (recommended)</label>
-                            <input type="phone" id="phone-number" required>
+                            <input type="phone" id="phone-number" name="phone-number" required>
                         </li>
 
                         <li>
                             <label for="password">Password</label>
-                            <input type="password" id="password">   
+                            <input type="password" id="password" name="password" required>
                         </li>
                     </ul>
 
-                    <button type="submit">Create Account</button>
+                    <button name="submit">Create Account</button>
 
                     <p>By clicking Create account, you agree to our
-                        <a href="#"> Terms </a> 
-                        and have read and acknowledge our  
+                        <a href="#"> Terms </a> and have read and acknowledge our
                         <a href="#"> Privacy Statement.</a>
                     </p>
-                    
+
                     <div>
-                        <p>Invisible reCAPTCHA by Google 
-                            <a href="#"> Privacy Policy</a> 
-                            and 
+                        <p>Invisible reCAPTCHA by Google
+                            <a href="#"> Privacy Policy</a> and
                             <a href="#"> Terms of Use.</a>
                         </p>
                     </div>
@@ -78,7 +75,7 @@
                 </fieldset>
 
             </form>
-            
+
         </div>
 
         <nav>
@@ -87,15 +84,13 @@
             <a href="#">Security</a>
         </nav>
 
-        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and  Mint are registered trademarks of Intuit Inc.</p>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
 
         <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </p>
 
     </div>
-    
+
 </body>
 
 </html>
-
-
