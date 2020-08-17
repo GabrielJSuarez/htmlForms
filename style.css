@@ -10,13 +10,13 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
 body {
-    background-color: #ECEEF1;
+    background-color: #eceef1;
     font-size: 1.6rem;
     width: 100%;
     margin: 0 auto;
@@ -34,9 +34,9 @@ h1 {
 }
 
 a {
-    color: #0077C5;
-    padding: 0rem;
-    margin: 0rem;
+    color: #0077c5;
+    padding: 0;
+    margin: 0;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -52,7 +52,7 @@ ul {
 }
 
 .no-margin {
-    margin: 0rem;
+    margin: 0;
 }
 
 .line-h {
@@ -71,11 +71,11 @@ ul {
 /* CUSTOM BUTTOM */
 
 button {
-    background-color: #0077C5;
-    color: #ffffff;
-    border: .1rem solid #000000;
+    background-color: #0077c5;
+    color: #fff;
+    border: 0.1rem solid #000;
     border-radius: .5rem;
-    padding: 0rem 2rem;
+    padding: 0 2rem;
     font-size: 1.4rem;
 }
 
@@ -128,7 +128,7 @@ button i {
 
 .logo-container img {
     width: 2.5rem;
-    padding-right: .5rem;
+    padding-right: 0.5rem;
 }
 
 
@@ -136,21 +136,21 @@ button i {
 
 .main-container {
     width: 28%;
-    background-color: #ffffff;
-    border: .1rem solid #c7c7c7;
+    background-color: #fff;
+    border: 0.1rem solid #c7c7c7;
     padding: 1.5rem 2.5rem;
     border-bottom: none;
 }
 
 .account-intro p {
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     font-size: 1.4rem;
 }
 
 .form-content {
     border: none;
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0;
+    margin: 0;
 }
 
 .list-element {
@@ -165,7 +165,7 @@ button i {
 
 .list-element li label {
     text-align: left;
-    margin: 1rem 0rem;
+    margin: 1rem 0;
     font-size: 1.6rem;
     color: #404040;
 }
@@ -177,7 +177,7 @@ button i {
 span {
     font-size: 1rem;
     text-align: left;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
 }
 
 .submit-buttom {
@@ -197,17 +197,17 @@ span {
 }
 
 .recaptcha-info {
-    background-color: #ECEEF1;
+    background-color: #eceef1;
     font-size: 1rem;
     width: 28%;
-    border: .1rem solid #c7c7c7;
+    border: 0.1rem solid #c7c7c7;
     border-top: none;
 }
 
 .recaptcha-info p {
-    margin: 0rem;
+    margin: 0;
     padding: 2.5rem 2rem;
-    color: #8D9096;
+    color: #8d9096;
 }
 
 .recaptcha-info p a {
@@ -238,6 +238,6 @@ footer {
 footer p {
     color: #505050;
     font-size: 1.2rem;
-    margin-top: .3rem;
-    margin-bottom: .5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
 }
