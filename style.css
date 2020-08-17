@@ -1,6 +1,5 @@
 /* Style Sheet */
 
-
 /* GLOBALS */
 
 html {
@@ -67,7 +66,6 @@ ul {
     margin: 0 auto;
 }
 
-
 /* CUSTOM BUTTOM */
 
 button {
@@ -84,7 +82,6 @@ button i {
     padding-right: 1rem;
 }
 
-
 /* HEADER */
 
 .header-container {
@@ -100,7 +97,6 @@ button i {
     font-size: 1.2rem;
     color: #505050;
 }
-
 
 /* SITE IMAGE */
 
@@ -130,7 +126,6 @@ button i {
     width: 2.5rem;
     padding-right: 0.5rem;
 }
-
 
 /* Main */
 
@@ -213,7 +208,6 @@ span {
 .recaptcha-info p a {
     font-size: 1rem;
 }
-
 
 /* Footer */
 
